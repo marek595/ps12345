@@ -1,3 +1,132 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #003087;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.info {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.katalog {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu-div {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+}
+
+.menu-div img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-info h3 {
+    margin: 10px 0 5px;
+}
+
+.menu-text, .sallary {
+    margin: 5px 0;
+}
+
+.order {
+    display: inline-block;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.order:hover {
+    background-color: #cc5500;
+}
+
+.vidhuk {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.vidhuk img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.about {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+footer {
+    background-color: #003087;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
