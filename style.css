@@ -1,132 +1,157 @@
+/* Основные стили */
 body {
     font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e1e2f, #3a3a52);
+    color: #ffffff;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
+/* Стили для заголовка */
 header {
-    background-color: #003087;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #3b3b4f, #1e1e2f);
+    padding: 15px 50px;
+    border-bottom: 3px solid #ff4757;
 }
 
 .logo {
-    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff4757;
 }
 
 nav {
-    margin-top: 10px;
+    display: flex;
+    gap: 20px;
 }
 
 .nav-link {
-    color: white;
     text-decoration: none;
-    margin: 0 15px;
+    color: #ffffff;
     font-size: 18px;
+    transition: 0.3s;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+    color: #ff4757;
 }
 
-main {
-    padding: 20px;
-}
-
+/* Секция информации */
 .info {
     text-align: center;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    padding: 50px;
+    background: linear-gradient(to bottom, #3a3a52, #1e1e2f);
+}
+
+.info h1 {
+    font-size: 24px;
+    color: #ffffff;
 }
 
 .info img {
-    max-width: 100%;
-    height: auto;
+    width: 300px;
+    margin-top: 20px;
 }
 
+/* Стили для каталога */
 .katalog {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .menu-div {
-    background: white;
+    background: linear-gradient(to bottom, #2b2b3d, #1e1e2f);
+    border-radius: 15px;
     padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 300px;
+    width: 250px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.menu-div:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(255, 71, 87, 0.8);
 }
 
 .menu-div img {
     width: 100%;
-    height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .menu-info h3 {
-    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #ff4757;
 }
 
-.menu-text, .sallary {
-    margin: 5px 0;
+.menu-text,
+.sallary {
+    font-size: 16px;
+    color: #ffffff;
 }
 
 .order {
     display: inline-block;
-    background-color: #ff6600;
-    color: white;
-    padding: 10px 15px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    background: #ff4757;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
+    transition: 0.3s;
 }
 
 .order:hover {
-    background-color: #cc5500;
+    background: #d63031;
 }
 
+/* Секция отзывов */
 .vidhuk {
     display: flex;
     align-items: center;
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    background: linear-gradient(to bottom, #3a3a52, #1e1e2f);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
 }
 
 .vidhuk img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
+.vidhuk p {
+    font-size: 18px;
+}
+
+/* Секция контактов */
 .about {
     text-align: center;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
 }
 
 .about img {
     width: 100px;
-    height: auto;
-    margin: 10px;
+    margin-top: 20px;
 }
 
+.about h1,
+.about h2 {
+    color: #ff4757;
+}
+
+/* Футер */
 footer {
-    background-color: #003087;
-    color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    background: linear-gradient(to right, #3b3b4f, #1e1e2f);
+    color: #ffffff;
     margin-top: 20px;
 }
